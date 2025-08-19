@@ -9,6 +9,8 @@ user_data/*
 !user_data/notebooks
 !user_data/models
 !user_data/freqaimodels
+!user_data/strategies
+!user_data/report
 user_data/freqaimodels/*
 user_data/models/*
 user_data/notebooks/*
@@ -104,6 +106,8 @@ target/
 .venv
 .idea
 .vscode
+.claude
+.lh
 
 .pytest_cache/
 .mypy_cache/

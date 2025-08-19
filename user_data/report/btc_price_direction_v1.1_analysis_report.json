@@ -1,0 +1,36 @@
+{
+  "model_identifier": "btc_price_direction_v1.1",
+  "analysis_date": "2025-08-16T00:11:04.825227",
+  "data_summary": {
+    "total_rows": 1268,
+    "date_range": "2022-01-01 00:00:00+00:00 to 2025-06-21 00:00:00+00:00",
+    "prediction_files": 8
+  },
+  "classification_metrics": {
+    "total_predictions": 438,
+    "accuracy": 1.0,
+    "precision_up": 1.0,
+    "recall_up": 1.0,
+    "f1_up": 1.0,
+    "precision_down": 1.0,
+    "recall_down": 1.0,
+    "f1_down": 1.0,
+    "roc_auc": 1.0,
+    "actual_up_count": "89",
+    "actual_down_count": "349",
+    "predicted_up_count": "89",
+    "predicted_down_count": "349"
+  },
+  "confidence_analysis": {
+    "mean_confidence": 0.5833781290446727,
+    "std_confidence": 0.03973830274832447,
+    "min_confidence": 0.5009277572079023,
+    "max_confidence": 0.6962032117374268,
+    "mean_confidence_correct": 0.5833781290446727,
+    "bin_accuracy": {
+      "0.5-0.6": 1.0,
+      "0.6-0.7": 1.0
+    }
+  },
+  "feature_importance": null
+}
